@@ -1,0 +1,20 @@
+name: impinging_position
+file:
+  losses: runs/2025-12-01_0858/impinging_position_losses.csv
+  params: runs/2025-12-01_0858/impinging_position_params.pth
+  init_params: runs/2025-12-01_0858/impinging_position_init_params.pth
+  plots: runs/2025-12-01_0858/impinging_position_plots.png
+batch_size: 18
+train_size: 648
+test_size: 324
+val_size: 324
+monitor_step: 27
+delete: true
+frac: 0.015
+n_epochs: 200
+n_iters_per_epoch: 36
+n_iterations: 7200
+n_steps: 4
+n_iters_per_step: 1800
+base_lr: 0.001
+gamma: 0.8
